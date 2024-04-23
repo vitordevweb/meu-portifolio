@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imagem/fundo-site.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+header p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.imagem{
+    text-align: center;   
+    padding-bottom: 50px;
+}
+
+.imagem img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    border-style: dashed;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+nav{
+    background-image: linear-gradient(to right, white, transparent 90%);
+    padding: 10px;
+}
+
+nav a{
+    margin-left: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+nav > a:hover{
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(17, 0, 255);
+    font-weight: bolder;
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.cursos{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+}
+
+.cursos h1{                /* <h1>Links Cursos Gratuitos</h1> */
+    margin-top: 0;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 153, 255), rgb(0, 9, 138));
+    text-shadow: 2px 2px 3px antiquewhite;
+    
+    
+}
+
+.cursos p{
+    
+    text-align: center;
+    padding-bottom: 30px;
+    
+    
+}
+
+.cursos a{
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    
+    
+}
+
+.cursos a::before{
+    content: " \00a0\00a0\00a0\2713";
+    color: green;
+}
+
+footer{
+    color: white;
+    font-size: 20;
+    text-align: center;
+    margin: 0;
+}
+
